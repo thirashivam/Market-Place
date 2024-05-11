@@ -55,7 +55,7 @@ const ProductDetailPage: React.FC = ({ }) => {
             <CategoriePage />
             <div className="mx-auto max-w-2xl px-4 sm:px-6 sm:py-2 lg:max-w-7xl lg:px-8 bg-white">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-7 mb-5">
-                    <Carousel className="rounded-lg border-solid border-2 border-[#0000001a] p-3">
+                    {/* <Carousel className="rounded-lg border-solid border-2 border-[#0000001a] p-3">
                         <div>
                             <img src={img4} className="w-full h-50" alt="Product Image" />
                         </div>
@@ -74,7 +74,7 @@ const ProductDetailPage: React.FC = ({ }) => {
                         <div>
                             <img src={img4} className="w-full h-50" alt="Product Image" />
                         </div>
-                    </Carousel>
+                    </Carousel> */}
                     <div className="grid grid-row-1 sm:grid-row-3 gap-4">
                         <div className="border-solid border-2 border-[#0000001a] rounded-lg p-2">
                             <div className="justify-center columns-1 ">
@@ -182,7 +182,7 @@ const ProductDetailPage: React.FC = ({ }) => {
                         <div className=" justify-center">
                             <div className="rounded-lg border-solid border-2 border-[#0000001A] p-2 max-w-xs">
                                 <div className="relative">
-                                    <img className="w-full h-[200px] object-cover rounded-md" src={img2} alt="Product" />
+                                    {/* <img className="w-full h-[200px] object-cover rounded-md" src={img2} alt="Product" /> */}
                                     <div className="absolute top-0 right-0">
                                         <button className={`bg-white rounded-full w-10 h-10 flex justify-center items-center`} >
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
