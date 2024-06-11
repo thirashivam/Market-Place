@@ -26,7 +26,7 @@ const ProductCard: React.FC<ProductProps> = ({ price, title, timestamp, location
     };
 
     return (
-        <Link to={`/product/${id}`} className="block">
+        <Link to={`/product/${id}`} className="block" >
             <div className=" justify-center">
                 <div className="rounded-lg border-solid border-2 border-[#0000001A] p-2 max-w-xs">
 
